@@ -110,4 +110,6 @@ theme: arknights
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://gitee.com/rossie65536/rossie65536.git
+  branch: master
