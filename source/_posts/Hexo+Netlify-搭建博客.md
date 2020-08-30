@@ -64,7 +64,7 @@ $ git commit -m "Blog"
 
 当然这只是将你的博客添加到本地的仓库，你需要将它上传到你的 github 仓库。
 
-#### 第1步：创建 SSH Key
+### 第1步：创建 SSH Key
 
 在用户主目录下，看看有没有 .ssh 目录，如果有，再看看这个目录下有没有 `id_rsa` 和 `id_rsa.pub` 这两个文件，如果已经有了，可直接跳到下一步。如果没有，打开 git bash，创建 SSH Key：
 
@@ -74,19 +74,19 @@ $ git commit -m "Blog"
 
 `youremalil` 是你的邮箱。
 
-#### 第2步，将 SSH Key 添加到你的 github 账户
+### 第2步，将 SSH Key 添加到你的 github 账户
 
 登陆 github，打开 Account settings，SSH Keys 页面。
 
 然后，点 Add SSH Key，填上任意 Title，在 Key 文本框里粘贴 `id_rsa.pub` 文件的内容，最后点 Add Key 。
 
-#### 第3步 创建一个仓库。
+### 第3步 创建一个仓库。
 
 在右上角找到 Create a new repo 按钮，创建一个新的仓库。
 
 在 Repository name 填入 `Blog`，其他保持默认设置，点击 Create repository 按钮，就成功地创建了一个新的 git 仓库。
 
-#### 第4步 将博客推送到 github 仓库
+### 第4步 将博客推送到 github 仓库
 
 首先连接到你的仓库。
 
