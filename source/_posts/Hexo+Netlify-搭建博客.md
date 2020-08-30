@@ -108,6 +108,8 @@ $ git push -u origin master
 $ git push origin master
 ```
 
+### 第5步，部署到 Netlify
+
 其实到这里就基本完成了，你只需用将你的博客部署到 Netlify 即可。
 
 使用 Netlify 提供的网页端用户界面。前往[新建一个网站页面](https://app.netlify.com/start)，选择需要关联的 github 库，然后遵循网站提示即可。
